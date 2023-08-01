@@ -1,0 +1,686 @@
+/* https://colorhunt.co/palette/000000282a3a735f32c69749 */
+
+body{
+    padding-top: 0px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #282A3A; /* Change this to your preferred color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Add a transition to create a smooth effect */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Change this to your preferred text color */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22m-7 8h7" /%3E%3C/svg%3E');
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #C69749; /* Change this to your preferred text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F7F1E5; /* Change this to your preferred hover color */
+}
+
+.navbar-nav .active {
+    font-weight: bold;
+}
+
+.navbar-fade {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.7) to control the fade effect */
+    /* Add any other styles for the fading navbar */
+}
+
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Apply this class to the navbar when the user scrolls down */
+.navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.7) to control the fade effect */
+  }
+/* 
+
+
+
+/* Hero Section Styles */
+.hero-section {
+    padding: 100px 0;
+    background-color: #070606; /* Choose a background color that complements your design */
+    margin-top: auto;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #E5E5CB; /* Choose a color for the hero title text */
+  }
+  
+  .hero-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #C69749; /* Choose a color for the hero description text */
+  }
+  
+  .btn-outline-primary {
+    color: #C69749; /* Set the text color for the "Explore Our Services" button */
+    border-color: #735F32; /* Set the border color for the button */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #735F32; /* Set the background color on hover */
+    color: #fff; /* Set the text color on hover */
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 80px 0;
+    }
+  
+    .hero-title {
+      font-size: 30px;
+    }
+  
+    .hero-description {
+      font-size: 18px;
+    }
+  }
+
+
+
+/* About Us Section Styles */
+.about-us-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Choose a background color for the section */
+  }
+  
+  .about-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #343a40; /* Choose a color for the about title text */
+  }
+  
+  .about-description {
+    font-size: 18px;
+    color: #6c757d; /* Choose a color for the about description text */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .about-us-section {
+      padding: 60px 0;
+    }
+  
+    .about-title {
+      font-size: 24px;
+    }
+  
+    .about-description {
+      font-size: 16px;
+    }
+  }
+
+/* styles.css */
+/* ... Other styles */
+
+/* Services Section Styles */
+.services-section {
+    padding: 80px 0;
+    background-color: #070606; /* Choose a background color for the section */
+  }
+  
+  .services-section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E5E5CB; /* Choose a color for the section title text */
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .service-item {
+  text-align: center;
+  }
+  
+  .service-icon {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .service-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #C69749; /* Choose a color for the service title text */
+  }
+  
+  .service-description {
+    font-size: 16px;
+    color: #E5E5CB; /* Choose a color for the service description text */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .services-section {
+      padding: 60px 0;
+    }
+  
+    .section-title {
+      font-size: 24px;
+    }
+  
+    .service-icon {
+      max-width: 60px;
+    }
+  
+    .service-title {
+      font-size: 18px;
+    }
+  
+    .service-description {
+      font-size: 14px;
+    }
+  }
+
+/* Project Showcase Section Styles */
+.project-showcase-section {
+    padding: 80px 0;
+    background-color: #735F32; /* Choose a background color for the section */
+  }
+  
+  .project-section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E5E5CB; /* Choose a color for the section title text */
+  }
+  
+  .project-card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for each project card */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a40; /* Choose a color for the project title text */
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #6c757d; /* Choose a color for the project description text */
+  }
+
+/* Client Testimonials Section Styles */
+.client-testimonials-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Choose a background color for the section */
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #343a40; /* Choose a color for the section title text */
+  }
+  
+  .testimonial-card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for each testimonial card */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  }
+  
+  .client-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6c757d; /* Choose a color for the testimonial text */
+  }
+  
+  .client-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40; /* Choose a color for the client name text */
+  }
+  
+  .client-designation {
+    font-size: 14px;
+    color: #6c757d; /* Choose a color for the client designation text */
+  }
+  
+/* styles.css */
+/* ... Other styles */
+
+/* Contact Form and CTA Section Styles */
+.contact-cta-section {
+    padding: 80px 0;
+    background-color: #070606; /* Choose a background color for the section */
+  }
+  
+  .cta-section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E5E5CB; /* Choose a color for the section title text */
+  }
+  
+
+  
+  /* Add custom styles for your form fields (input, textarea, etc.) */
+  
+  .cta {
+    text-align: center;
+    margin-top: 180px;
+  }
+  
+  .cta-description {
+    font-size: 18px;
+    color: #E5E5CB; /* Choose a color for the CTA description text */
+  }
+
+ /* Contact Form Styles */
+.contact-form {
+  background-color: #070606;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #E5E5CB; /* Change this to the desired color for the label names */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-publish {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-publish:hover {
+  background-color: #0056b3;
+}
+  
+/* Company Values and Mission Section Styles */
+.values-mission-section {
+    padding: 80px 0;
+    background-color: #735F32; /* Choose a background color for the section */
+  }
+  
+  .mission-section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E5E5CB; /* Choose a color for the section title text */
+  }
+  
+  .company-values {
+    background-color: #f9f9f9; /* Set the background color for the company values section */
+    padding: 30px; /* Add some padding around the content */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+
+    /* Center the content in the column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-values h2 {
+    font-size: 24px; /* Set the font size for the section title */
+    font-weight: bold; /* Add bold font weight */
+    margin-bottom: 20px; /* Add some spacing below the section title */
+    color: #333333; /* Set the text color for the section title */
+}
+
+.company-values ul {
+    list-style: none; /* Remove the default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.company-values li {
+    font-size: 16px; /* Set the font size for the company values */
+    line-height: 1.6; /* Set the line height for better readability */
+    color: #555555; /* Set the text color for the company values */
+    margin-bottom: 10px; /* Add some spacing between each value */
+}
+  
+  .company-values ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .company-values li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #E5E5CB; /* Choose a color for the company values text */
+  }
+  
+  .company-mission {
+    background-color: #f9f9f9; /* Set the background color for the company mission section */
+    padding: 30px; /* Add some padding around the content */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+
+    /* Center the content in the column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-mission h2 {
+    font-size: 24px; /* Set the font size for the section title */
+    font-weight: bold; /* Add bold font weight */
+    margin-bottom: 20px; /* Add some spacing below the section title */
+    color: #333333; /* Set the text color for the section title */
+}
+
+.company-mission p {
+    font-size: 16px; /* Set the font size for the mission text */
+    line-height: 1.6; /* Set the line height for better readability */
+    color: #555555; /* Set the text color for the mission text */
+    text-align: center; /* Center-align the mission text */
+}
+
+  
+  .mission-text {
+    font-size: 18px;
+    color: #E5E5CB; /* Choose a color for the mission text */
+  }  
+  
+/* Footer Styles */
+.footer-section {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-section h4 {
+    color: #fff;
+  }
+  
+  .footer-section p, .footer-section ul {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+
+/* Contact.ejs */
+/* Styles for the Contact Form Section */
+.contact-form-section {
+  padding: 40px;
+  background-color: #070606;
+  margin-top: 70px; /* Adding margim to create space */
+}
+
+.contact-form-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #E5E5CB;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #E5E5CB; /* Change the label text color for better visibility */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+button.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #735F32;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #C69749;
+}
+
+/* Styles for the Contact Information Section */
+.contact-info {
+  padding: 40px;
+  background-color: #070606;
+  color: #E5E5CB;
+}
+
+.contact-info-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info-item {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Additional styles to customize link colors in footer */
+.footer-section a {
+  color: #fff;
+}
+
+.footer-section a:hover {
+  color: #007bff;
+}
+
+
+/*styles for the thank you section */
+.thank-you-section {
+  padding-top: 130px; /* Adjust this value to push the content below the fixed navbar */
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #070606;
+}
+
+.thank-you-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #E5E5CB;
+  margin-bottom: 20px;
+}
+
+.thank-you-description {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #735F32; /*preferred button color */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #C69749; /*  preferred button hover color */
+}
+
+
+/* Error Page */
+.error-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.error-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  font-size: 18px;
+}
+
+
+/* About Section */
+.about-section {
+  padding: 110px 0 80px;
+  background-color: #070606;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #C69749;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #E5E5CB;
+  line-height: 1.8;
+}
+
+/* Company Values and Mission Section */
+.values-mission-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.mission-section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.company-values ul {
+  padding-left: 20px;
+}
+
+.company-values li {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.mission-text {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}

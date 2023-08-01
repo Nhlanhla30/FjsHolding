@@ -1,0 +1,36 @@
+<%- include("partials/header"); -%> 
+<!-- Contact Form Section -->
+<section class="contact-form-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <h2 class="contact-form-title">Contact Us</h2>
+                    <form action="/submit_contact" method="POST">
+                        <div class="form-group">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                            <label for="" class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            <label for="" class="form-label">Phone</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="Phone (Optional)" required>
+                            <label for="" class="form-label">Message</label>
+                            <textarea class="form-control" rows=5 cols=30 name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button class="btn btn-outline-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h2 class="contact-info-title">Contact Information</h2>
+                    <p class="contact-info-item">Email: fjsholding@gmail.com</p>
+                    <p class="contact-info-item">Phone: 0614243723</p>
+                    <p class="contact-info-item">Location: 19 Fourth Avenue Prieska, 8940</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Contact Form Section -->
+<%- include ("partials/footer"); -%>
