@@ -643,14 +643,14 @@ button.btn:hover {
   border-radius: 10px;
 }
 
-.about-title {
+.about-page-title {
   font-size: 36px;
   font-weight: bold;
   color: #C69749;
   margin-bottom: 20px;
 }
 
-.about-description {
+.about-page-description {
   font-size: 18px;
   color: #E5E5CB;
   line-height: 1.8;
@@ -684,3 +684,41 @@ button.btn:hover {
   color: #666;
   line-height: 1.8;
 }
+
+/* Services Section Styles */
+.services-section {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.services-section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.service-item {
+  margin-bottom: 30px;
+}
+
+.service-icon {
+  width: 120px; /* Adjust the size of the service/product icons */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.service-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #E5E5CB;
+}
+
+/* Additional styling as needed */
+
