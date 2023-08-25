@@ -26,11 +26,11 @@ body{
 }
 
 .navbar-nav .nav-link {
-    color: #C69749; /* Change this to your preferred text color */
+    color: #F7F1E5; /* Change this to your preferred text color */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #F7F1E5; /* Change this to your preferred hover color */
+    color: #C69749; /* Change this to your preferred hover color */
 }
 
 .navbar-nav .active {
@@ -44,21 +44,29 @@ body{
 
 
 .container-fluid {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
 }
 
 /* Apply this class to the navbar when the user scrolls down */
 .navbar-scroll {
     background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.7) to control the fade effect */
   }
-/* 
+  
+
+.logo-image {
+    width: 100px; /* Set the desired width for your logo */
+    height: auto; /* Let the height adjust automatically based on the width */
+    padding: 5px; /* Add some padding to the logo for better visual separation */
+    border-radius: 5px; /* Add a subtle rounded border to the logo */
+    background-color: #fff; /* Add a white background behind the logo */
+}
 
 
 
 /* Hero Section Styles */
 .hero-section {
-    padding: 100px 0;
+    padding: 130px 0 110px;
     background-color: #070606; /* Choose a background color that complements your design */
     margin-top: auto;
   }
@@ -89,21 +97,7 @@ body{
   .img-fluid {
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    .hero-section {
-      padding: 80px 0;
-    }
-  
-    .hero-title {
-      font-size: 30px;
-    }
-  
-    .hero-description {
-      font-size: 18px;
-    }
+    padding-top: 15px;
   }
 
 
@@ -125,20 +119,6 @@ body{
     color: #6c757d; /* Choose a color for the about description text */
   }
   
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    .about-us-section {
-      padding: 60px 0;
-    }
-  
-    .about-title {
-      font-size: 24px;
-    }
-  
-    .about-description {
-      font-size: 16px;
-    }
-  }
 
 /* styles.css */
 /* ... Other styles */
@@ -183,34 +163,12 @@ body{
     font-size: 16px;
     color: #E5E5CB; /* Choose a color for the service description text */
   }
-  
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    .services-section {
-      padding: 60px 0;
-    }
-  
-    .section-title {
-      font-size: 24px;
-    }
-  
-    .service-icon {
-      max-width: 60px;
-    }
-  
-    .service-title {
-      font-size: 18px;
-    }
-  
-    .service-description {
-      font-size: 14px;
-    }
-  }
+
 
 /* Project Showcase Section Styles */
 .project-showcase-section {
     padding: 80px 0;
-    background-color: #735F32; /* Choose a background color for the section */
+    background-color: #f8f9fa; /* Choose a background color for the section */
   }
   
   .project-section-title {
@@ -363,18 +321,14 @@ textarea.form-control {
   resize: vertical;
 }
 
-.btn-publish {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.btn-outline-primary {
+  color: #C69749; /* Set the text color for the "Explore Our Services" button */
+  border-color: #735F32; /* Set the border color for the button */
 }
 
-.btn-publish:hover {
-  background-color: #0056b3;
+.btn-outline-primary:hover {
+  background-color: #735F32; /* Set the background color on hover */
+  color: #fff; /* Set the text color on hover */
 }
   
 /* Company Values and Mission Section Styles */
@@ -533,18 +487,14 @@ textarea.form-control {
   resize: vertical;
 }
 
-button.btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #735F32;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+.btn-outline-primary {
+  color: #C69749; /* Set the text color for the "Explore Our Services" button */
+  border-color: #735F32; /* Set the border color for the button */
 }
 
-button.btn:hover {
-  background-color: #C69749;
+.btn-outline-primary:hover {
+  background-color: #735F32; /* Set the background color on hover */
+  color: #fff; /* Set the text color on hover */
 }
 
 /* Styles for the Contact Information Section */
@@ -596,22 +546,14 @@ button.btn:hover {
   margin-bottom: 10px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-  background-color: #735F32; /*preferred button color */
-  border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+.btn-outline-primary {
+  color: #C69749; /* Set the text color for the "Explore Our Services" button */
+  border-color: #735F32; /* Set the border color for the button */
 }
 
-.btn:hover {
-  background-color: #C69749; /*  preferred button hover color */
+.btn-outline-primary:hover {
+  background-color: #735F32; /* Set the background color on hover */
+  color: #fff; /* Set the text color on hover */
 }
 
 
@@ -720,5 +662,225 @@ button.btn:hover {
   color: #E5E5CB;
 }
 
+
 /* Additional styling as needed */
+
+/* Project Showcase Section Styles */
+.project-showcase-section {
+  padding: 140px 0;
+  background-color: #f8f9fa; /* Choose a background color for the section */
+}
+
+.project-section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #6c757d; /* Choose a color for the section title text */
+}
+
+.project-showcase-section-title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #343a40;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-image {
+  flex: 0 0 calc(25% - 20px);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover img {
+  transform: scale(1.05);
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 1024px) {
+  /* Navbar Styling */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-toggler-icon {
+    background-size: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  /* Hero Section Styles */
+  .hero-section {
+    padding: 150px 0 60px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  /* About Us Section Styles */
+  .about-us-section {
+    padding: 60px 0;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-description {
+    font-size: 14px;
+  }
+
+  /* Services Section Styles */
+  .services-section {
+    padding: 60px 0;
+  }
+
+  .services-section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .service-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .service-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .service-description {
+    font-size: 14px;
+  }
+
+  /* Project Showcase Section Styles */
+  .project-showcase-section {
+    padding: 150px 0;
+  }
+
+  .project-section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .project-image {
+    border-radius: 8px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  /* Client Testimonials Section Styles */
+  .client-testimonials-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .client-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .client-name {
+    font-size: 16px;
+  }
+
+  .client-designation {
+    font-size: 12px;
+  }
+
+  /* Contact Form and CTA Section Styles */
+  .contact-cta-section {
+    padding: 60px 0;
+  }
+
+  .cta-section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .cta-description {
+    font-size: 16px;
+  }
+
+  /* Company Values and Mission Section Styles */
+  .values-mission-section {
+    padding: 60px 0;
+  }
+
+  .mission-section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .company-values li {
+    font-size: 16px;
+  }
+
+  .mission-text {
+    font-size: 16px;
+  }
+
+  /* Footer Styles */
+  .footer-section {
+    padding: 30px 0;
+  }
+
+  .footer-section h4 {
+    font-size: 20px;
+  }
+
+  .footer-section p,
+  .footer-section ul {
+    margin-bottom: 10px;
+  }
+
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+}
 

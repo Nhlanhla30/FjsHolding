@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -55,16 +56,16 @@ app.post("/submit_contact", function (req, res) {
         smtpTransport({
             service: "gmail",
             auth: {
-                user: "smallznkosi5@gmail.com",
-                pass: "Ihtbpe7175.",
+                user: process.env.USER_EMAIL,
+                pass: process.env.GMAIL_PASS
             },
         })
     );
 
     // Email options
     const mailOptions = {
-        from: "smallznkosi5@gmail.com",
-        to: "nhlanhlankosi301@fmail.com",
+        from: process.env.FROM_EMAIL,
+        to: process.env.TO_EMAIL,
         subject: "New Contact Form Submission",
         text: `
             Name: ${name}
@@ -93,4 +94,3 @@ app.listen(3000, function(){
 });
 
 
-//git token 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
