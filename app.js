@@ -17,7 +17,7 @@ app.use(express.static("public")); //access the public folder that contains css 
 
 
 app.get("/", function(req, res){
-    res.render("home");
+    res.render("index");
 });
 
 app.get("/about", function(req, res){
